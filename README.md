@@ -1,3 +1,7 @@
+# HW 3
+![image](https://user-images.githubusercontent.com/67063105/217779449-7961d1ea-356d-42f1-a507-cb61dbc72bc2.png)
+
+
 # HW 2
 ![image](https://user-images.githubusercontent.com/67063105/217577992-267e7e17-bd78-41e1-9c22-9f59f446a252.png)
 
