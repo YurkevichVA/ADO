@@ -1,4 +1,17 @@
-# HW 4
+# HW 6
+Редагування
+![image](https://user-images.githubusercontent.com/67063105/219389928-f62e9a9a-6c66-45fa-8799-d36416245b21.png)
+![image](https://user-images.githubusercontent.com/67063105/219390020-349c3762-1378-4088-b39f-1d4cc6b9e7de.png)
+![image](https://user-images.githubusercontent.com/67063105/219391554-5aa857bc-40a2-483d-9c57-b9f16ed55ae1.png)
+Створення
+![image](https://user-images.githubusercontent.com/67063105/219393777-135d18ea-9fe2-40e7-999f-9676dd99450d.png)
+![image](https://user-images.githubusercontent.com/67063105/219393873-0bfbec93-0d52-4f2b-8a3c-55a2fe385362.png)
+Вилучення
+![image](https://user-images.githubusercontent.com/67063105/219394146-4436e5c0-b6fa-4d64-815f-d108fd618279.png)
+![image](https://user-images.githubusercontent.com/67063105/219394205-6f846324-43df-49e0-96f4-7f569af1528f.png)
+
+
+# HW 4, 5
 Редагування
 ![image](https://user-images.githubusercontent.com/67063105/219349792-d8026c74-1887-4759-95e1-32ffd13e6338.png)
 ![image](https://user-images.githubusercontent.com/67063105/219349867-b34f9903-1768-4019-8141-90766a3c9eb4.png)
