@@ -18,7 +18,7 @@ namespace ADO_NET_Lesson1.Entities
         {
             Id = Guid.NewGuid();
             Name = null!;
-            DeleteDt= null;
+            DeleteDt = null;
         }
         public Product(SqlDataReader reader)
         {
