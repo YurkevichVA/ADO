@@ -1,3 +1,11 @@
+#HW 7
+![image](https://user-images.githubusercontent.com/67063105/220958194-83ff0ccf-ecb5-4826-b8ce-262bb8f1c4f5.png)
+![image](https://user-images.githubusercontent.com/67063105/220958278-978e2d75-9d87-4b37-a151-2ed7430afbcc.png)
+![image](https://user-images.githubusercontent.com/67063105/220958413-a68283b8-f0f0-4785-9f19-8f80f489a2ac.png)
+![image](https://user-images.githubusercontent.com/67063105/220958492-33efecb3-ca9c-443d-a269-0e9a8b76afe1.png)
+![image](https://user-images.githubusercontent.com/67063105/220958767-7684fc32-8cef-4bc0-aa27-28505dd2c3b0.png)
+
+
 # HW 6
 Редагування
 ![image](https://user-images.githubusercontent.com/67063105/219389928-f62e9a9a-6c66-45fa-8799-d36416245b21.png)
