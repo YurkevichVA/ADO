@@ -1,1 +1,10 @@
 SEVERE - 23.02.2023 11:29:46: DepartmentApi::GetAll Invalid object name 'Departments1'. + 
+SEVERE - 01.03.2023 10:00:57: ManagerApi::GetAll Incorrect syntax near the keyword 'IS'.
+SEVERE - 01.03.2023 10:56:55: ManagerApi::GetAll ExecuteReader requires an open and available Connection. The connection's current state is closed.
+SEVERE - 01.03.2023 10:57:44: ManagerApi::GetAll ExecuteReader requires an open and available Connection. The connection's current state is closed.
+SEVERE - 01.03.2023 11:00:37: ManagerApi::GetAll ExecuteReader requires an open and available Connection. The connection's current state is closed.
+SEVERE - 01.03.2023 11:05:55: ManagerApi::GetAll The connection was not closed. The connection's current state is open.
+SEVERE - 01.03.2023 11:12:32: ManagerApi::GetAll The connection was not closed. The connection's current state is open.
+SEVERE - 01.03.2023 11:14:55: ManagerApi::GetAll The connection was not closed. The connection's current state is open.
+SEVERE - 01.03.2023 11:15:23: ManagerApi::GetAll The connection was not closed. The connection's current state is open.
+SEVERE - 01.03.2023 11:17:57: ManagerApi::GetAll The connection was not closed. The connection's current state is open.
