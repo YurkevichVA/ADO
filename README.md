@@ -1,3 +1,10 @@
+# HW 9
+![image](https://user-images.githubusercontent.com/67063105/222765176-7061885d-c891-4f36-88fd-fa9359dcadf3.png)
+![image](https://user-images.githubusercontent.com/67063105/222765801-83bb9ba3-af6f-41d0-890f-732e37621026.png)
+
+
+
+
 # HW 8
 ![image](https://user-images.githubusercontent.com/67063105/220963287-56a48f5e-a57c-43a9-b3f6-aca2b8a5c051.png)
 ![image](https://user-images.githubusercontent.com/67063105/220963321-29c14d6e-ea8c-4cae-928c-633b961fb087.png)
