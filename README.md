@@ -1,8 +1,15 @@
+# HW 10
+![image](https://user-images.githubusercontent.com/67063105/223707599-ac2b83ae-188d-46ed-9dba-17cfeb27be02.png)
+![image](https://user-images.githubusercontent.com/67063105/223711017-ab0c9ec4-bb92-439b-8bb7-2f264dfa7b0c.png)
+Delete Канцелярия
+![image](https://user-images.githubusercontent.com/67063105/223711183-0c18185a-8f2d-45bc-bde6-e19884690597.png)
+![image](https://user-images.githubusercontent.com/67063105/223711225-50b01a7e-209e-470e-bb3c-4d887643fc5e.png)
+
+
+
 # HW 9
 ![image](https://user-images.githubusercontent.com/67063105/222765176-7061885d-c891-4f36-88fd-fa9359dcadf3.png)
 ![image](https://user-images.githubusercontent.com/67063105/222765801-83bb9ba3-af6f-41d0-890f-732e37621026.png)
-
-
 
 
 # HW 8
