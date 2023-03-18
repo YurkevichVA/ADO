@@ -186,7 +186,8 @@ namespace ADO_NET_Lesson1.AdditionalWindows
             BestManagerByMoney_Lbl.Content = $"{queryBestManByMoney.Manager.Surname} {queryBestManByMoney.Manager.Name[0]}. -- {queryBestManByMoney.Cnt} UAH";
             #endregion
             #region Departments stats
-            // Can't translate without ToList
+            
+            #region Another option but cant translate
             //var departmentsStats = efContext.Departments.ToList()
             //    .GroupJoin(
             //    efContext.Managers,
@@ -207,8 +208,9 @@ namespace ADO_NET_Lesson1.AdditionalWindows
             //            ).Sum(c => c.ManCount)
             //    }
             //    ).OrderByDescending(dep => dep.Cnt);
+            #endregion
 
-            #region Another option but cant translate
+            // Can't translate without ToList
             var departmentsStats = efContext.Departments.ToList()
                 .GroupJoin(
                 efContext.Managers
@@ -230,7 +232,7 @@ namespace ADO_NET_Lesson1.AdditionalWindows
                     Cnt = managers.Sum(m => m.Cnt),
                     Sum = managers.Sum(m => m.Sum)
                 }).OrderByDescending(d => d.Cnt);
-            #endregion
+            
 
             foreach (var department in departmentsStats)
             {
