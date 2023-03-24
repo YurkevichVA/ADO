@@ -40,6 +40,9 @@ namespace ADO_NET_Lesson1.AdditionalWindows
             depListView.Filter =
                 obj => (obj as Department)?.DeleteDt == null;
 
+            efContext.Managers.Load();
+            Managers_LstVw.ItemsSource = efContext.Managers.Local.ToObservableCollection();
+
             UpdateMonitor();
             UpdateDailyStatistic();
         }
@@ -53,6 +56,9 @@ namespace ADO_NET_Lesson1.AdditionalWindows
         }
         private void UpdateDailyStatistic()
         {
+            if (efContext.Sales.Where(s => s.SaleDt.Date == DateTime.Today).Count() <= 0)
+                return;
+
             #region General stats
             // Checks
             var todaySales = efContext.Sales.Where(s => s.SaleDt.Date == DateTime.Today);
@@ -160,6 +166,8 @@ namespace ADO_NET_Lesson1.AdditionalWindows
 
             int i = 1;
 
+            Top3ManagersByItems_Lbl.Content = "";
+
             foreach (var item in queryTop3)
             {
                 Top3ManagersByItems_Lbl.Content +=
@@ -232,7 +240,8 @@ namespace ADO_NET_Lesson1.AdditionalWindows
                     Cnt = managers.Sum(m => m.Cnt),
                     Sum = managers.Sum(m => m.Sum)
                 }).OrderByDescending(d => d.Cnt);
-            
+
+            DepartmentsStats_Lbl.Content = "";
 
             foreach (var department in departmentsStats)
             {
@@ -337,6 +346,11 @@ namespace ADO_NET_Lesson1.AdditionalWindows
             efContext.SaveChanges();
             UpdateMonitor();
             UpdateDailyStatistic();
+        }
+
+        private void Managers_LstVw_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+
         }
     }
 }

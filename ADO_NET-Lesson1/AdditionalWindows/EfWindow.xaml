@@ -129,12 +129,37 @@
                             DisplayMemberBinding="{Binding Path=Name}"/>
                         <GridViewColumn
                             Header="Delete Date"
-                            DisplayMemberBinding="{Binding Path=DeleteDt}"
-                            Width="0"/>
+                            DisplayMemberBinding="{Binding Path=DeleteDt}"/>
+                        <GridViewColumn
+                            Header="Workers"
+                            DisplayMemberBinding="{Binding Path=Workers.Count}"/>
                     </GridView>
                 </ListView.View>
             </ListView>
         </StackPanel>
-        
+
+
+        <ListView x:Name="Managers_LstVw" MouseDoubleClick="Managers_LstVw_MouseDoubleClick"
+                      ScrollViewer.VerticalScrollBarVisibility="Visible" 
+                      ScrollViewer.CanContentScroll="True"
+                      Grid.Column="2" Grid.Row="1">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn
+                            Header="Id"
+                            DisplayMemberBinding="{Binding Path=Id}"/>
+                    <GridViewColumn
+                            Header="Surname"
+                            DisplayMemberBinding="{Binding Path=Surname}"/>
+                    <GridViewColumn
+                            Header="Dep"
+                            DisplayMemberBinding="{Binding Path=MainDep.Name}"/>
+                    <GridViewColumn
+                            Header="Sec Dep"
+                            DisplayMemberBinding="{Binding Path=SecDep.Name}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
     </Grid>
 </Window>

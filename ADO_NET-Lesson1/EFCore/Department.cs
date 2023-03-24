@@ -12,5 +12,10 @@ namespace ADO_NET_Lesson1.EFCore
         public Guid Id { get; set; }
         public string Name { get; set; }
         public DateTime? DeleteDt { get; set; }
+
+        /// Navigation properties ///
+        
+        public List<Manager> Workers { get; set; }
+        public List<Manager> SubWorkers { get; set; }
     }
 }

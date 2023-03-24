@@ -16,5 +16,11 @@ namespace ADO_NET_Lesson1.EFCore
         public Guid? IdSecDep { get; set; }
         public Guid? IdChief { get; set; }
         public DateTime? DeleteDt { get; set; }
+
+        /// Navigation Properties ///
+        public Department MainDep { get; set; }
+        public Department SecDep { get; set; }
+        public List<Sale> Sales { get; set; }
+        public List<Product> Products { get; set; }
     }
 }

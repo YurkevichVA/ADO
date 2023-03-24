@@ -14,5 +14,8 @@ namespace ADO_NET_Lesson1.EFCore
         public int Quantity { get; set; }
         public Guid Manager_Id { get; set; }
         public DateTime? DeleteDt { get; set; }
+        /// Navigation Properties ///
+        public Manager Manager { get; set; }
+        public Product Product { get; set; }
     }
 }
